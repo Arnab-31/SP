@@ -1,0 +1,278 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html
+{
+  background-color: #fff;
+  color: #000;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  overflow-x: hidden;
+}
+
+header
+{
+  background-image: url(images/header_background_2.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.row{
+  text-align: center;
+}
+
+.hero-text-box
+{
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 10%;
+}
+
+.hero-text-box h1
+{
+  margin-left: 80px;
+}
+
+.hero-text-box p
+{
+  margin-top: 25px;
+  margin-right: 10px;
+  font-size: 35px;
+  line-height: 40px;
+  text-align: center;
+}
+
+
+
+h1{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 80px;
+}
+
+nav{
+  background-color: #000;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+
+nav div ul{
+  list-style-type: none;
+}
+
+nav div ul li a:link,
+nav div ul li a:visited{
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.5s;
+}
+
+nav div ul li a:hover,
+nav div ul li a:active{
+  background-color: rgba(12, 81, 242);
+}
+
+nav div ul .left{
+  float: left;
+}
+
+nav div ul .right{
+  float: right;
+}
+
+.sub-head{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.hotel,.flight{
+  color: #fff;
+}
+
+.para{
+  margin: 35px;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+form{
+  margin-top: 40px;
+}
+input{
+  height: 40px;
+  width: 40%;
+  font-size: 20px;
+  border-radius: 3px;
+  margin-right: 50%;
+  border: 1px solid #ccc;
+}
+
+input[type=submit]{
+  width: 10%;
+  margin-left: 53%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  transition: background-color 0.5s;
+}
+
+input[type=submit]:hover{
+  width: 10%;
+  margin-left: 53%;
+  margin-top: 30px;
+  background-color: rgba(12, 81, 242);
+}
+
+label{
+  margin-left: 50%;
+  color: #fff;
+}
+
+.section-Hotels{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(100,102,101,0.4)),url(images/hotel.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-Flights{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(100,102,101,0.4)),url(images/flight.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container{
+  width: 90%;
+  height: 300px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.container h3{
+  color: #fff;
+  font-size: 50px;
+  text-align: left;
+  margin-left: 15px;
+  text-align: bottom;
+}
+
+.london{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/london.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.london:hover{
+  background-image: url(images/london.jpg);
+}
+
+.mumbai{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/Mumbai.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.mumbai:hover{
+  background-image: url(images/mumbai.jpeg);
+}
+
+.new-york{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/new-york.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.new-york:hover{
+  background-image: url(images/new-york.jpg);
+}
+
+.paris{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/Paris.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.paris:hover{
+  background-image: url(images/Paris.jpg);
+}
+
+label[for=first-name],label[for=last-name],[for=Email],[for=Message]{
+  color: #000;
+}
+
+footer{
+  background-color: #333;
+}
+
+footer ul{
+  list-style: none;
+
+}
+
+footer ul[class=footer-nav] li{
+  float: left;
+  margin: 10px 10px;
+  height: 10px;
+}
+
+
+
+footer ul[class=social] li{
+  float: right;
+  margin: 10px 10px;
+}
+
+footer ul li a{
+  text-decoration: none;
+}
+
+footer ul[class=social] li a {
+  color: #888;
+  height:  200%;
+  font-size: 120%;
+}
+
+footer div p{
+  color: #888;
+  width: 100%;
+  margin: 10px auto;
+  font-size: 80%;
+  text-align: center;
+}
+
+footer ul[class=footer-nav] li a{
+  color: #888;
+  font-size: 80%;
+}
+
+.footer-nav li a:hover{
+  color: #ddd;
+}
+
+ion-icon[name=logo-facebook]:hover{
+  color: #3b5998
+}
+
+ion-icon[name=logo-twitter]:hover{
+  color: #00acee
+}
+
+ion-icon[name=logo-instagram]:hover{
+  color: #C13584
+}
+
+ion-icon[name=logo-googleplus]:hover{
+  color: #db4a39
+}

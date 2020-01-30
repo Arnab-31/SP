@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="grid.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="queries.css">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0,maximum-scale=1.0, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,700|Kaushan+Script&display=swap" rel="stylesheet">
+    <title>The Vacation Vibes</title>
+  </head>
+  <body>
+   <header>
+     <nav>
+      <div class="row">
+        <ul class="main-nav">
+          <li class="left"><a href="#about">About Us</a></li>
+          <li class="left"><a href="#hotel">Hotels</a></li>
+          <li class="left"><a href="#flights">Flights</a></li>
+          <li class="left"><a href="#packages">Packages</a></li>
+          <li class="right"><a href="#">Sign Up</a></li>
+        </ul>
+      </div>
+    </nav>
+      <div class="hero-text-box">
+        <h1>Vacation Vibes</h1>
+        <p>
+          Welcome To Travel.com.
+          Here we provide the best travel plans to various parts of the world.
+          To make the world a small place and make your travel easy and
+          comfortable we are here.
+        </p>
+      </div>
+    </header>
+
+    <section class="section-About" id="about">
+      <div class="row sub-head">
+        <h2>About Us</h2>
+      </div>
+      <div class="row para">
+      <p>
+        We are one of the oldest working network,we started in 2005 and continuing our work further more.
+        We have a well recognized staff working to give a personal touch to our customers.You can contact us
+        anytime and make your own packages at the cheapest price possible.
+      </p>
+      </div>
+    </section>
+
+    <section class="section-Hotels" id="hotel">
+      <br>
+      <div class="row sub-head">
+        <h2 class="hotel">Hotels</h2>
+      </div>
+      <div class="row">
+        <form class="contact-form" action="#" method="post">
+          <div class="row">
+           <div class="col span-1-of-2">
+             <label for="Check-In">Check-In:</label>
+           </div>
+           <div class="col span-1-of-2">
+             <input type="date" name="check-in" id="Check-In" required>
+           </div>
+          </div>
+          <div class="row">
+           <div class="col span-1-of-2">
+             <label for="Check-Out">Check-Out:</label>
+           </div>
+           <div class="col span-1-of-2">
+             <input type="date" name="check-out" id="Check-Out"  required>
+           </div>
+          </div>
+          <div class="row">
+           <div class="col span-1-of-2">
+             <label for="Where To">Where To:</label>
+           </div>
+           <div class="col span-1-of-2">
+             <input type="text" name="where-to" id="Where To"  required>
+           </div>
+          </div>
+          <div class="row">
+           <div class="col span-1-of-2">
+             <label for="Rooms">Rooms:</label>
+           </div>
+           <div class="col span-1-of-2">
+             <input type="number" name="rooms" id="Rooms"  required>
+           </div>
+          </div>
+          <div class="row">
+            <input type="submit" name="submit" value="submit">
+          </div>
+        </form>
+       </div>
+      </section>
+      <section class="section-Flights" id="flights">
+        <br>
+        <div class="row sub-head">
+          <h2 class="flight">Flights</h2>
+        </div>
+        <div class="row">
+          <form class="contact-form" action="#" method="post">
+            <div class="row">
+             <div class="col span-1-of-2">
+               <label for="Date">Date:</label>
+             </div>
+             <div class="col span-1-of-2">
+               <input type="date" name="date" id="Date" required>
+             </div>
+            </div>
+            <div class="row">
+             <div class="col span-1-of-2">
+               <label for="Departure">Departure:</label>
+             </div>
+             <div class="col span-1-of-2">
+               <input type="text" name="departure" id="Departure"  required>
+             </div>
+            </div>
+            <div class="row">
+             <div class="col span-1-of-2">
+               <label for="Arrival">Arrival:</label>
+             </div>
+             <div class="col span-1-of-2">
+               <input type="text" name="arrival" id="Arrival"  required>
+             </div>
+            </div>
+            <div class="row">
+             <div class="col span-1-of-2">
+               <label for="Adults">Adults:</label>
+             </div>
+             <div class="col span-1-of-2">
+               <input type="number" name="adults" id="Adults"  required>
+             </div>
+            </div>
+            <div class="row">
+              <input type="submit" name="submit" value="submit">
+            </div>
+          </form>
+         </div>
+        </section>
+        <section class="section-Packages" id="packages">
+          <br>
+          <div class="row sub-head">
+            <h2>Packages</h2>
+          </div>
+          <div class="city-images">
+            <div class="row">
+              <div class="col span-1-of-2">
+                <div class="container london">
+                  <h3>London</h3>
+                </div>
+              </div>
+              <div class="col span-1-of-2">
+                <div class="container mumbai">
+                  <h3>Mumbai</h3>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-2">
+                <div class="container new-york">
+                  <h3>New York</h3>
+                </div>
+              </div>
+              <div class="col span-1-of-2">
+                <div class="container paris">
+                  <h3>Paris</h3>
+                </div>
+              </div>
+            </div>
+           </div>
+         </section>
+         <section class="About-Us">
+           <div class="row sub-head">
+             <h2>Contact Us</h2>
+           </div>
+           <div class="row">
+             <form class="contact-us" action="#" method="post">
+               <div class="row">
+                <div class="col span-1-of-2">
+                  <label for="first-name">First Name:</label>
+                </div>
+                <div class="col span-1-of-2">
+                  <input type="text" name="First-name" id="first-name" placeholder="Your first name"required>
+                </div>
+               </div>
+               <div class="row">
+                <div class="col span-1-of-2">
+                  <label for="last-name">Last Name:</label>
+                </div>
+                <div class="col span-1-of-2">
+                  <input type="text" name="last-name" id="last name" placeholder="Your last name" required>
+                </div>
+               </div>
+               <div class="row">
+                <div class="col span-1-of-2">
+                  <label for="Email">Email:</label>
+                </div>
+                <div class="col span-1-of-2">
+                  <input type="email" name="Email" id="Email" placeholder="Your email id" required>
+                </div>
+               </div>
+               <div class="row">
+                <div class="col span-1-of-2">
+                  <label for="Message">Message:</label>
+                </div>
+                <div class="col span-1-of-2">
+                  <input type="textarea" name="Message" id="Message" placeholder="Your message" required>
+                </div>
+               </div>
+               <div class="row">
+                 <input type="submit" name="submit" value="submit">
+               </div>
+             </form>
+            </div>
+         </section>
+
+         <footer>
+           <br>
+           <div class="row">
+             <div class="col span-1-of-2">
+               <ul class="footer-nav">
+                 <li><a href="#">About Us</a></li>
+                 <li><a href="#">Blog</a></li>
+                 <li><a href="#">Press</a></li>
+                 <li><a href="#">IOS App</a></li>
+                 <li><a href="#">Android App</a></li>
+               </ul>
+             </div>
+             <div class="col span-1-of-2">
+               <ul class="social">
+                 <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                 <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                 <li><a href="#"><ion-icon name="logo-googleplus"></ion-icon></a></li>
+                 <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+               </ul>
+
+             </div>
+           </div>
+           <br>
+           <div class="row">
+             <p>
+               Copyright &copy; 2020 bulit by Arnab Poddar.
+             </p>
+           </div>
+           <br>
+         </footer>
+         <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>

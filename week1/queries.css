@@ -1,0 +1,47 @@
+@media only screen and (max-width: 450px) {
+  nav div ul li a: link{
+    font-size: 10px;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+
+  .hero-text-box p{
+    font-size: 25px;
+  }
+
+  nav div ul li a:link,
+  nav div ul li a:visited{
+    font-size: 15px;
+  }
+
+  .hero-text-box{
+    margin-top: 100px;
+  }
+
+  form .span-1-of-2{
+    width: 50%;
+  }
+
+  input{
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  footer ul[class=footer-nav] li a{
+    font-size: 50%;
+  }
+
+  footer ul[class=social] li a {
+    font-size: 80%;
+  }
+
+  footer ul[class=social] li{
+    margin: 1px 5px;
+  }
+
+  footer ul[class=footer-nav] li{
+    margin: 5px 5px 5px 5px;
+  }
+}
